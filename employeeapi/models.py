@@ -14,7 +14,7 @@ class Employee(models.Model):
     # Delete / Remove - DELETE
 
 
-# class Ssoaccount(models.Model):
-#     nik = models.IntegerField(max_length=12)
-#     nama = models.CharField(max_length=255)
-#     password = models.CharField(max_length=255)
+class Account(models.Model):
+    nik = models.IntegerField(max_length=12)
+    nama = models.CharField(max_length=255)
+    password = models.CharField(max_length=255)
